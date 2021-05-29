@@ -7,13 +7,13 @@ import SendIcon from "@material-ui/icons/Send";
 import React from "react";
 import "./ChatHeader.css";
 
-const ChatHeader = () => {
+const ChatHeader = ({channelName}) => {
     return (
         <div className="ChatHeader">
             <div className="chatHeader__left">
                 <h3>
                     <span className="chatHeader__hash">#</span>
-                    Test Channel Name
+                    {channelName}
                 </h3>
             </div>
             <div className="chatHeader__right">

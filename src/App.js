@@ -4,28 +4,13 @@ import Chat from "./Chat";
 import Sidebar from "./Sidebar";
 
 function App() {
-<<<<<<< HEAD
-<
-  return (
-    <div className="app">
-      {/* Sidebar */}
-      <Sidebar/>
-      {/* chat df*/}
-      <Chat></Chat>
-  
-    </div>
-  );
-
-  
-
-=======
     return (
         <div className="app">
             <Sidebar />
             <Chat />
+            {/* this is so blaaa.. */}
         </div>
     );
->>>>>>> c1a039c85240aacfe2628fdb26da5cf3802cc685
 }
 
 export default App;

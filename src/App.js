@@ -34,21 +34,15 @@ function App() {
       {user ?
 
         (
-          <div>
+          <>
             <Sidebar />
             <Chat />
-          </div>
+          </>
         )
         : (
           <Login />
         )
       }
-
-      {/* <div>
-        <Sidebar />
-        <Chat />
-      </div> */}
-
     </div>
   );
 }

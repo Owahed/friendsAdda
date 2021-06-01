@@ -7,14 +7,14 @@
 
 .login > button{
     width: 300px;
-    background-color: #6443c2;
+    background-color: #7d2ae8;
     color: #eff2f5;
     font-weight: 800;
 }
 
 .login > button:hover{
-    background-color: black;
-    color: #6443c2;
+    background-color: #8d39faf5;
+    color:#eff2f5 ;
 }
 
 /* .login > div {
@@ -24,6 +24,6 @@
 
 .login > div > img {
     object-fit: contain;
-    height: 250px;
+    height: 350px;
 }
 
